@@ -1,8 +1,10 @@
 pandas==2.2.3
 numpy
 plotly
+plotly_express
 dash
 scikit-learn
 gunicorn
 dash_bootstrap_components
 dash_daq
+openpyxl
