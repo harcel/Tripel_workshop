@@ -330,17 +330,17 @@ def plot_gauge(df, Beer):
     fig.add_annotation(x=0.89, y=0.80,
             text=f"ABV: {df[df.Beer == Beer].ABV.values[0]:2.1f}%",
             showarrow=False,
-            font={'size':18, 'color':'orange'}
+            font={'size':14, 'color':'orange'}
             )
     fig.add_annotation(x=0.89, y=0.73,
             text=f"Label:  {df[df.Beer == Beer].AlcoholLabel.values[0]:2.1f}%",
             showarrow=False,
-            font={'size':14, 'color':'orange'}
+            font={'size':12, 'color':'orange'}
             )
     fig.add_annotation(x=0.09, y=0.77,
             text=f"TFS: {df[df.Beer == Beer].TFS.values[0]:2.1f} g/L",
             showarrow=False,
-            font={'size':18, 'color':'orange'}
+            font={'size':14, 'color':'orange'}
             )
     
 
